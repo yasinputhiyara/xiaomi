@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+}
+
+.navbar-nav a:hover{
+    border-bottom: 2px solid orange;
+    padding-bottom: 5px;
+}
+
+.carousel-img {
+    margin-top: 20px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .carousel-caption-custom {
+    position: absolute;
+    top: 100px; left: 20%;
+    text-align: center;
+    color: white; 
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+  }
+
+
+  .phone-card img{
+    padding: 10px;
+  }
+
+  #product-list{
+    margin-top: 10px;
+    
+  }
+  #product-list li{
+   padding-left: 20px;
+   padding-right: 20px;
+    
+  }
+  #product-list a{
+    color: black;
+    text-decoration: none;
+
+    
+  }
+
+  .offer-card {
+    margin: 10px;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding-bottom: 30px;
+  }
+  
+  .offer-card img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .offer-card:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  footer a{
+
+    text-decoration: none;
+    line-height: 10px;
+    color: gray;
+
+  }
+
+  @media (max-width: 768px) {
+    .carousel-img {
+      height: 250px;
+    
+    }
+
+    .title-name{
+        font-size: 10px;
+    }
+
+    .carousel-caption-custom{
+      left: 20px;
+      
+    }
+
+    .carousel-caption-custom h2, .carousel-caption-custom h4{
+      font-size: 15px;
+
+    }
+    
+  }
+  @media (min-width: 992px) {
+    .offer-card {
+      width: 30%;
+    }
+  }
+
+
+
